@@ -1,4 +1,6 @@
-# Dev-ops/Operations/Infrastructure/Cloud/Deployment/Servers/Cattle
+# IN PROGRESS
+## Dev-ops/Operations/Infrastructure/Cloud/Deployment/Servers/Cattle
+
 
 ### Purpose
 The purpose of this section is to introduce you to the wonderfully crowded clusterfun that is "getting your app on the actual internet".
@@ -13,7 +15,8 @@ First, [this blog post](http://cloudscaling.com/blog/cloud-computing/the-history
 The purpose of this part is to successfully deploy a simple application on AWS.
 
 ### Background
-> “The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.” -- Taylor Swift
+> “The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.” -- Taylor Swift 
+
 Servers (basic client <-> server model understanding). Now back in my day, you needed an actual machine to run a server. So, to launch an app one needed to purchase a server, install the hardware, software... etc. To expand, buy more servers. To scale down... you've already bought the servers. Luckily for you, we're not going to do this. We're going to use Amazon Web Services to set up a virtual machine that will act as the server which hosts our app.
 
 Virtual Machines are not new, they're an old concept. Commonly, when you hear virtual machine what someone means is (hypervisor-guest) in the cloud. Specific instance Amazon had lots and lots of extra computing power that they weren't always using... lease that out to people - distinct part of an amazon server that you can run your stuff in. THis is the premise behind what the cloud providers do. We're going to use Amazon's most basic solution - EC2 - Elastic Compute Cloud - where you get VMS.
